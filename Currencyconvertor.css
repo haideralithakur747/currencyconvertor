@@ -11,8 +11,39 @@ body {
 
 .container {
     width: 20%;
- height: 350px;
+ height: 320px;
     background: #fff;
     padding: 20px;
- 
+    border-radius: 10px;
+
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.select-container {
+    display: flex;
+    align-items: center;
+}
+.select-container img {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin-left: 0.5rem;
+}
+#to-currency {
+    border: none;
+}
+#from-currency {
+    border: none;
+}
+button[type="submit"] {
+
+    margin-top: 30px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+.msg{
+    margin-top: 40px;
 }
