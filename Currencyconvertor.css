@@ -60,15 +60,13 @@ backdrop-filter: blur(12px);
 } */
 button[type="submit"] {
 
-    margin-top: 30px;
+    margin-top: 50px;
     cursor: pointer;
     text-align: center;
     width: 100%;
    background-color: #00BFFF;
 }
-.msg{
-    margin-top: 40px;
-}
+
 .fa-arrow-right-arrow-left {
   color: #00BFFF;
   font-size: 24px;
