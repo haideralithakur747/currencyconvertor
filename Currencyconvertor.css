@@ -1,6 +1,16 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #cc9595;
+    
+            /* background-image: url(1.jpeg); */
+    background-image: url(123.jpg);
+
+    
+
+
+
+
+    /* background-repeat: no-repeat;  */
+     background-size: cover;
     margin: 0;
     padding: 0;
     display: flex;
@@ -8,13 +18,24 @@ body {
     align-items: center;
     height: 100vh;
 }
-
+h2 {
+    color: #00BFFF;
+}
+p {
+    color: #00BFFF;
+}
+select {
+    color: #00BFFF;
+    background-color: black;
+}
 .container {
     width: 20%;
  height: 320px;
-    background: #fff;
+    background: #00BFFF;
     padding: 20px;
     border-radius: 10px;
+    background: rgba(0, 0, 0, 0.7);
+backdrop-filter: blur(12px);
 
 }
 .dropdown{
@@ -31,19 +52,28 @@ body {
     height: 1.7rem;
     margin-left: 0.5rem;
 }
-#to-currency {
+/* #to-currency {
     border: none;
 }
 #from-currency {
     border: none;
-}
+} */
 button[type="submit"] {
 
     margin-top: 30px;
     cursor: pointer;
     text-align: center;
     width: 100%;
+   background-color: #00BFFF;
 }
 .msg{
     margin-top: 40px;
+}
+.fa-arrow-right-arrow-left {
+  color: #00BFFF;
+  font-size: 24px;
+}
+button[type="submit"]:hover {
+    background-color: #0080FF;
+    color: white;
 }
