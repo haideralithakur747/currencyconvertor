@@ -20,7 +20,7 @@ function convertCurrency() {
   getcurrencydata().then((data) => {
     fromRate = data.eur[fromCurrency.value.toLowerCase()];
 
-  console.log(fromRate);
+    console.log(fromRate);
     toRate = data.eur[toCurrency.value.toLowerCase()];
 
     let convertedAmount = (amount.value / fromRate) * toRate;
@@ -28,19 +28,17 @@ function convertCurrency() {
     result.innerText = `${amount.value} ${
       fromCurrency.value
     } = ${convertedAmount.toFixed(2)} ${toCurrency.value}`;
-    final_value = convertedAmount;4
-    
-updateResult();
+    final_value = convertedAmount;
+    4;
+
+    updateResult();
   });
 }
 
-  convertCurrency();
+convertCurrency();
 function updateResult() {
   let result1 = fromRate / toRate;
-
 }
-
-
 
 for (let select of dropdowns) {
   for (let currcode in countryList) {
@@ -59,6 +57,9 @@ for (let select of dropdowns) {
     select.addEventListener("change", (e) => {
       updateflag(e.target);
     });
+    select.addEventListener("change", (e) => {
+      amount.value = "";
+    });
   }
 }
 const updateflag = (element) => {
@@ -70,7 +71,8 @@ const updateflag = (element) => {
   img.src = newSrc;
 };
 
-buttonn.addEventListener("click", (e)=> {
+buttonn.addEventListener("click", (e) => {
   e.preventDefault();
   convertCurrency();
 });
+

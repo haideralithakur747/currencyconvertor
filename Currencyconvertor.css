@@ -1,77 +1,65 @@
 body {
-    font-family: Arial, sans-serif;
-    
-            /* background-image: url(1.jpeg); */
-    background-image: url(123.jpg);
+  font-family: Arial, sans-serif;
 
-    
+  /* background-image: url(1.jpeg); */
+  background-image: url(123.jpg);
 
-
-
-
-    /* background-repeat: no-repeat;  */
-     background-size: cover;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  /* background-repeat: no-repeat;  */
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 h2 {
-    color: #00BFFF;
+  color: #00bfff;
 }
 p {
-    color: #00BFFF;
+  color: #00bfff;
 }
 select {
-    color: #00BFFF;
-    background-color: black;
+  color: #00bfff;
+  background-color: black;
 }
 .container {
-    width: 20%;
- height: 320px;
-    background: #00BFFF;
-    padding: 20px;
-    border-radius: 10px;
-    background: rgba(0, 0, 0, 0.7);
-backdrop-filter: blur(12px);
-
+  width: 20%;
+  height: 320px;
+  background: #00bfff;
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(12px);
 }
-.dropdown{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .select-container {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 .select-container img {
-    width: 1.7rem;
-    height: 1.7rem;
-    margin-left: 0.5rem;
+  width: 1.7rem;
+  height: 1.7rem;
+  margin-left: 0.5rem;
 }
-/* #to-currency {
-    border: none;
-}
-#from-currency {
-    border: none;
-} */
-button[type="submit"] {
 
-    margin-top: 50px;
-    cursor: pointer;
-    text-align: center;
-    width: 100%;
-   background-color: #00BFFF;
+button[type="submit"] {
+  margin-top: 50px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+  background-color: #00bfff;
 }
 
 .fa-arrow-right-arrow-left {
-  color: #00BFFF;
+  color: #00bfff;
   font-size: 24px;
 }
 button[type="submit"]:hover {
-    background-color: #0080FF;
-    color: white;
+  background-color: #0080ff;
+  color: white;
 }
